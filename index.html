@@ -5,44 +5,88 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="">
         <link rel="stylesheet" type="text/css" href="style/mainstyle.css">
-        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+        <link rel="stylesheet" type="text/css" href="style/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="style/slick/slick-theme.css"/>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
         <title>ГИКОМ</title>
     </head>
     <body>
         <div class="header">
             <div class="container_menu">
                 <div class="header_body">
-                    <a href="#home_page" class = "anchor home"><img class="home anchor" src="logo_w.svg"></a>
+                    <div class="logo">
+                        <a href="#home_page"><img class="home" src="logo_w.svg"></a>
+                        <a href="#home_page"><img class="home_black" src="logo.svg"></a>
+                    </div>
                     <nav class="header_menu">
                         <ul class="header_list">
-                            <li class="main_menu"><a href="#" class="anchor">О компании</a>
-                                <!--<ul class="dropdown"> 
-                                    <li class="dropdown_menu"><a href="#" class="anchor">Новости</a></li>
-                                    <li class="dropdown_menu"><a href="#" class="anchor">Вакансии</a></li>
-                                    <li class="dropdown_menu"><a href="#" class="anchor">Публикации</a></li>
-                                    <li class="dropdown_menu"><a href="#" class="anchor">Акционерам</a></li>
-                                    <li class="dropdown_menu"><a href="#" class="anchor">Благотворительность</a></li>
-                                </ul>-->
+                            <li class="main_menu"><a href="#" class="text_menu">О компании ▾</a>
+                                <ul class="dropdown"> 
+                                    <li class="dropdown_menu"><a href="#" class="text_menu">Новости</a></li>
+                                    <li class="dropdown_menu"><a href="#" class="text_menu">Вакансии</a></li>
+                                    <li class="dropdown_menu"><a href="#" class="text_menu">Публикации</a></li>
+                                    <li class="dropdown_menu"><a href="#" class="text_menu">Акционерам</a></li>
+                                    <li class="dropdown_menu"><a href="#" class="text_menu">Благотворительность</a></li>
+                                </ul>
                             </li>
-                            <li class="main_menu"><a href = "#" class = "anchor">Производство</a>
-                                <!--<ul class="dropdown"> 
-                                    <li class="dropdown_menu"><a href="#" class="anchor">Продукция</a></li>
-                                    <li class="dropdown_menu"><a href="#" class="anchor">Заказчики и партнеры</a></li>
-                                    <li class="dropdown_menu"><a href="#" class="anchor">Экспериментальная база</a></li>
-                                </ul>-->
+                            <li class="main_menu"><a href = "#" class="text_menu">Производство ▾</a>
+                                <ul class="dropdown"> 
+                                    <li class="dropdown_menu"><a href="#" class="text_menu">Продукция</a></li>
+                                    <li class="dropdown_menu"><a href="#" class="text_menu">Заказчики и партнеры</a></li>
+                                    <li class="dropdown_menu"><a href="#" class="text_menu">Экспериментальная база</a></li>
+                                </ul>
                             </li>
-                            <li class="main_menu"><a href = "contact.html" class = "anchor">Контакты</a></li>
+                            <li class="main_menu"><a href = "contact.html" class="text_menu">Контакты</a></li>
                         </ul>
                     </nav>
                 </div>
             </div>
             <div class="container_name">
-
+                <div class="heading">
+                    <p class ="head_name"><b>Закрытое акционерное общество<br>Научно-производственное предприятие<br>"Гиком" (Гиротронные комплексы)<br>(ЗАО НПП "Гиком")</b></p>
+                </div>
             </div>
         </div>
         <div class="content">
-
+            <div class="products">
+                <p class = "head_content"><b>Продукция</b></p>
+                <div class ="slider">
+                    <div class="slider_item prod1">
+                        <p class="product_slider">гиротроны для УТС</p>
+                    </div>
+                    <div class="slider_item prod2">
+                        <p class="product_slider">гиротроны непрерывного<br>действия</p>
+                    </div>
+                    <div class="slider_item prod3">
+                        <p class="product_slider">технологические установки<br>на основе гиротронов</p>
+                    </div>
+                    <div class="slider_item prod4">
+                        <p class="product_slider">мощные усилители мм-<br>диапазона длин волн</p>
+                    </div>
+                    <div class="slider_item prod5">
+                        <p class="product_slider">электромагниты и<br>сверхпроводящие магниты</p>
+                    </div>
+                    <div class="slider_item prod6">
+                        <p class="product_slider">линии передачи<br>СВЧ-излучения<br>и их компоненты</p>
+                    </div>
+                    <div class="slider_item prod7">
+                        <p class="product_slider">СВЧ-приборы<br>малой мощности</p>
+                    </div>
+                    <div class="slider_item prod8">
+                        <p class="product_slider">частотометры и<br>спектроанализаторы</p>
+                    </div>
+                    <div class="slider_item prod9">
+                        <p class="product_slider">выходные и барьерные<br>окна</p>
+                    </div>
+                    <div class="slider_item prod10">
+                        <p class="product_slider">гиротроны<br>субтерагерцового<br>и терагерцового<br>диапазонов</p>
+                    </div>
+                    <div class="slider_item prod11">
+                        <p class="product_slider">катоды</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>
