@@ -1,0 +1,195 @@
+.header {
+    background-image: url(../bg.png);
+    height: 100.1vh;
+    background-size: cover;
+    background-position: center;
+}
+.container_name {
+    width:100%;
+}
+.heading {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+    height: 100vh;
+    display: grid;
+    align-items: end;
+}
+.head_name {
+    color: #ffffff;
+    font-size: 3em;  
+    text-align: right;
+    padding: 0 0 70px 0;
+}
+.content {
+    width: 100%;
+    height: auto;
+}
+.products {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+    padding: 20px 0;
+}
+.head_content_center {
+    text-align: center;
+    font-size: 2.5em;
+    padding: 60px 0 70px 0;
+}
+.dots {
+    padding: 20px 0;
+  }
+.slider_products {
+    height: 300px;
+}
+.slider_item_prod {
+    width: 260px;
+    height: 260px;
+}
+.product_slider {
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0 0 0;
+    font-size: 0.9em;
+}
+.prod {
+    width: 260px;
+    height: 260px;
+    transition: 0.3s;
+}
+.prod:hover {
+    transform: scale(0.9);
+   }
+.prod1 {
+    background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,212,255,0) 70%),
+        url(../img/gyrCTF.jpg);
+}
+.prod2 {
+    background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,212,255,0) 70%),
+        url(../img/gyr.jpg);
+}
+.prod3 {
+    background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,212,255,0) 70%),
+        url(../img/gyrinst.jpg);
+}
+.prod4 {
+    background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,212,255,0) 70%),
+        url(../img/amplifier.jpg);
+}
+.prod5 {
+    background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,212,255,0) 70%),
+        url(../img/electromagnet.jpg);
+}
+.prod6 {
+    background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,212,255,0) 70%),
+        url(../img/transmisslines.jpg);
+}
+.prod7 {
+    background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,212,255,0) 70%),
+        url(../img/smallmicrowave.jpg);
+}
+.prod8 {
+    background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,212,255,0) 70%),
+        url(../img/freqmetr.jpg);
+}
+.prod9 {
+    background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,212,255,0) 70%),
+        url(../img/window.jpg);
+}
+.prod10 {
+    background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,212,255,0) 70%),
+        url(../img/gyrsubter.jpg);
+}
+.prod11 {
+    background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,212,255,0) 70%),
+        url(../img/cathod.jpeg);
+}
+.statistic {
+    display: flex;
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0 10vh 0;
+}
+.specialists {
+    width: 30%;
+    display: grid;
+}
+.head_content {
+    font-size: 2em;
+    padding: 0 0 15px 0;
+}
+.specialist {
+    display: flex;
+    padding: 3px 0;
+}
+.num {
+    font-size: 5em;
+    text-align: right;
+    width: 25%;
+    padding: 0 20px 0 0;
+    display: grid;
+    align-items: end;
+}
+.specialists_info {
+    font-size: 1.3em;
+    text-align: left;
+    width: 75%;
+    display: grid;
+    align-items: end;
+}
+.short_info {
+    width: 40%;
+    height: auto;
+    padding: 0 40px;
+}
+.adresses {
+    width: 30%;
+}
+.office {
+    font-size: 1.5em;
+    padding: 5px 0;
+}
+.map_off {
+    font-size: 1.2em;
+    padding: 0 0 5px 0;
+}
+.second_div {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1400px;
+    padding: 70px 0 10vh 0;
+}
+.news {
+    width: 60%;
+}
+.vacancy {
+    padding: 0 0 0 20px;
+    width: 40%;
+}
+.slider_news {
+    padding: 20px 0;
+    height: 550px;
+}
+.slider_item_news {
+    height: 550px;
+    width: 350px;
+}
+.news_photo {
+    width: 350px;
+    height: 350px;
+}
+.data_news {
+    padding: 20px 0 0 0;
+}
+.news_text {
+    font-weight: bold;
+    padding: 10px 0;
+    width: 350px;
+}
+.vac_photo {
+    width: 90%;
+    height: 350px;
+    padding: 20px 0;
+}

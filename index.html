@@ -5,9 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="">
         <link rel="stylesheet" type="text/css" href="style/mainstyle.css">
+        <link rel="stylesheet" type="text/css" href="style/style_index.css">
         <link rel="stylesheet" type="text/css" href="style/slick/slick.css"/>
         <link rel="stylesheet" type="text/css" href="style/slick/slick-theme.css"/>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="style/slick/slick.min.js"></script>
         <script type="text/javascript" src="script.js"></script>
         <title>ГИКОМ</title>
     </head>
@@ -23,21 +26,22 @@
                         <ul class="header_list">
                             <li class="main_menu"><a href="#" class="text_menu">О компании ▾</a>
                                 <ul class="dropdown"> 
-                                    <li class="dropdown_menu"><a href="#" class="text_menu">Новости</a></li>
-                                    <li class="dropdown_menu"><a href="#" class="text_menu">Вакансии</a></li>
-                                    <li class="dropdown_menu"><a href="#" class="text_menu">Публикации</a></li>
-                                    <li class="dropdown_menu"><a href="#" class="text_menu">Акционерам</a></li>
-                                    <li class="dropdown_menu"><a href="#" class="text_menu">Благотворительность</a></li>
+                                    <a href="#" class="dropdown_menu"><li class="text_menu">Новости</li></a>
+                                    <a href="#" class="dropdown_menu"><li class="text_menu">Вакансии</li></a>
+                                    <a href="#" class="dropdown_menu"><li class="text_menu">Публикации</li></a>
+                                    <a href="#" class="dropdown_menu"><li class="text_menu">Заказчики и партнеры</li></a>
+                                    <a href="#" class="dropdown_menu"><li class="text_menu">Благотворительность</li></a>
                                 </ul>
                             </li>
                             <li class="main_menu"><a href = "#" class="text_menu">Производство ▾</a>
                                 <ul class="dropdown"> 
-                                    <li class="dropdown_menu"><a href="#" class="text_menu">Продукция</a></li>
-                                    <li class="dropdown_menu"><a href="#" class="text_menu">Заказчики и партнеры</a></li>
-                                    <li class="dropdown_menu"><a href="#" class="text_menu">Экспериментальная база</a></li>
+                                    <a href="#" class="dropdown_menu"><li class="text_menu">Продукция</li></a>
+                                    <a href="#" class="dropdown_menu"><li class="text_menu">Экспериментальная база</li></a>
+                                    <a href="#" class="dropdown_menu"><li class="text_menu">Технологические процессы</li></a>
+                                    <a href="#" class="dropdown_menu"><li class="text_menu">Проектная деятельность</li></a>
                                 </ul>
                             </li>
-                            <li class="main_menu"><a href = "contact.html" class="text_menu">Контакты</a></li>
+                            <li class="main_menu"><a href = "contact.html" class="text_menu">Контакты</li></a>
                         </ul>
                     </nav>
                 </div>
@@ -50,42 +54,119 @@
         </div>
         <div class="content">
             <div class="products">
-                <p class = "head_content"><b>Продукция</b></p>
-                <div class ="slider">
-                    <div class="slider_item prod1">
-                        <p class="product_slider">гиротроны для УТС</p>
+                <p class = "head_content_center"><b>Продукция</b></p>
+                <div class ="slider_products">
+                    <div class="slider_item_prod">
+                        <a href="#"><div class="prod prod1"><p class="product_slider">гиротроны для УТС</p></div></a>
                     </div>
-                    <div class="slider_item prod2">
-                        <p class="product_slider">гиротроны непрерывного<br>действия</p>
+                    <div class="slider_item_prod">
+                        <a href="#"><div class="prod prod2"><p class="product_slider">гиротроны непрерывного<br>действия</p></div></a>
                     </div>
-                    <div class="slider_item prod3">
-                        <p class="product_slider">технологические установки<br>на основе гиротронов</p>
+                    <div class="slider_item_prod">
+                        <a href="#"><div class="prod prod3"><p class="product_slider">технологические установки<br>на основе гиротронов</p></div></a>
                     </div>
-                    <div class="slider_item prod4">
-                        <p class="product_slider">мощные усилители мм-<br>диапазона длин волн</p>
+                    <div class="slider_item_prod">
+                        <a href="#"><div class="prod prod4"><p class="product_slider">мощные усилители мм-<br>диапазона длин волн</p></div></a>
                     </div>
-                    <div class="slider_item prod5">
-                        <p class="product_slider">электромагниты и<br>сверхпроводящие магниты</p>
+                    <div class="slider_item_prod">
+                        <a href="#"><div class="prod prod5"><p class="product_slider">электромагниты и<br>сверхпроводящие магниты</p></div></a>
                     </div>
-                    <div class="slider_item prod6">
-                        <p class="product_slider">линии передачи<br>СВЧ-излучения<br>и их компоненты</p>
+                    <div class="slider_item_prod">
+                        <a href="#"><div class="prod prod6"><p class="product_slider">линии передачи<br>СВЧ-излучения<br>и их компоненты</p></div></a>
                     </div>
-                    <div class="slider_item prod7">
-                        <p class="product_slider">СВЧ-приборы<br>малой мощности</p>
+                    <div class="slider_item_prod">
+                        <a href="#"><div class="prod prod7"><p class="product_slider">СВЧ-приборы<br>малой мощности</p></div></a>
                     </div>
-                    <div class="slider_item prod8">
-                        <p class="product_slider">частотометры и<br>спектроанализаторы</p>
+                    <div class="slider_item_prod">
+                        <a href="#"><div class="prod prod8"><p class="product_slider">частотометры и<br>спектроанализаторы</p></div></a>
                     </div>
-                    <div class="slider_item prod9">
-                        <p class="product_slider">выходные и барьерные<br>окна</p>
+                    <div class="slider_item_prod">
+                        <a href="#"><div class="prod prod9"><p class="product_slider">выходные и барьерные<br>окна</p></div></a>
                     </div>
-                    <div class="slider_item prod10">
-                        <p class="product_slider">гиротроны<br>субтерагерцового<br>и терагерцового<br>диапазонов</p>
+                    <div class="slider_item_prod">
+                        <a href="#"><div class="prod prod10"><p class="product_slider">гиротроны<br>субтерагерцового<br>и терагерцового<br>диапазонов</p></div></a>
                     </div>
-                    <div class="slider_item prod11">
-                        <p class="product_slider">катоды</p>
+                    <div class="slider_item_prod">
+                        <a href="#"><div class="prod prod11"><p class="product_slider">катоды</p></div></a>
                     </div>
                 </div>
+            </div>
+            <div class="statistic">
+                <div class="specialists">
+                    <p class="head_content"><b>Специалисты</b></p>
+                    <div class="specialist">
+                        <div class="num"><b>8</b></div>
+                        <div class="specialists_info"><b style="padding: 0 0 15px 0;">докторов наук</b></div>
+                    </div>
+                    <div class="specialist">
+                        <div class="num"><b>37</b></div>
+                        <div class="specialists_info"><b>кандидатов физико-<br>математических и<br>технических наук</b></div>
+                    </div>
+                </div>
+                <div class="short_info"></div>
+                <div class="adresses">
+                    <div class="head_content"><b>Офисы</b></div>
+                    <b><div class="office">Центральный</div><div class="map_off"><a href="https://yandex.ru/maps/-/CDQ4RTk5" target="_blank">Нижний Новгород, ул. Ульянова, д. 46</a></b></div>
+                    <b><div class="office">Филиал НПП "Гиком-М"</div><div class="map_off"><a href="https://yandex.ru/maps/-/CDQ4R2ZB" target="_blank">Москва, ул. Введенского, д. 8</a></b></div>
+                    <b><div class="office">Филиал НПП "Гиком-НН"</div><div class="map_off"><a href="https://yandex.ru/maps/-/CDQ4VQL3" target="_blank">Нижний Новгород, ул. Ларина, д. 7</a></b></div>
+                </div>
+            </div>
+            <div class="second_div">
+                <div class="news">
+                    <div class="head_content"><b>Новости</b></div>
+                    <div class="slider_news">
+                        <div class="slider_item_news">
+                            <div class="news_photo"><img src="news/25_05_2023.jpg" style="width: 100%; height: 100%; object-fit: cover;"></div>
+                            <div class="data_news">25 мая 2023</div>
+                            <div class="news_text">Завершились заводские испытания 7-го поставочного гиротронного комплекса для международного токамака ИТЭР</div>
+                        </div>
+                        <div class="slider_item_news">
+                            <div class="news_photo"><img src="news/28_02_2023.jpg" style="width: 100%; height: 100%; object-fit: cover;"></div>
+                            <div class="data_news">28 февраля 2023</div>
+                            <div class="news_text">Успешно завершились сдаточные испытания гиротронного комплекса в Хуанчжонском Университете Науки и Технологии (HUST) в г.Ухань, Китай</div>
+                        </div>
+                        <div class="slider_item_news">
+                            <div class="news_photo"><img src="news/15_12_2022.jpg" style="width: 100%; height: 100%; object-fit: cover;"></div>
+                            <div class="data_news">15 декабря 2022</div>
+                            <div class="news_text">Завершились заводские испытания гиротронного комплекса для частного заказчика</div>
+                        </div>
+                        <div class="slider_item_news">
+                            <div class="news_photo"><img src="news/08_12_2022.jpg" style="width: 100%; height: 100%; object-fit: cover;"></div>
+                            <div class="data_news">8 декабря 2022</div>
+                            <div class="news_text">Завершены сдаточные испытания гиротронного комплекса для ITER-India</div>
+                        </div>
+                        <div class="slider_item_news">
+                            <div class="news_photo"><img src="news/25_10_2022.jpg" style="width: 100%; height: 100%; object-fit: cover;"></div>
+                            <div class="data_news">25 октября 2022</div>
+                            <div class="news_text">Завершились заводские испытания системы управления первыми двумя гиротронными комплексами ИТЭР</div>
+                        </div>
+                        <div class="slider_item_news">
+                            <div class="news_photo"><img src="news/13_09_2022.jpg" style="width: 100%; height: 100%; object-fit: cover;"></div>
+                            <div class="data_news">13 сентября 2022</div>
+                            <div class="news_text">Произведена отгрузка четырех гиротронов на площадку международного термоядерного экспериментального реактора ИТЭР в г.Кадараш (Франция)</div>
+                        </div>
+                        <div class="slider_item_news">
+                            <div class="news_photo"><img src="news/20_06_2022.jpg" style="width: 100%; height: 100%; object-fit: cover;"></div>
+                            <div class="data_news">20 июня 2022</div>
+                            <div class="news_text">Успешно завершились заводские испытания 6-го поставочного гиротронного комплекса для международного токамака ИТЭР</div>
+                        </div>
+                    </div>
+                    <a href="news.html">Все новости</a>
+                </div>
+                <div class="vacancy">
+                    <div class="head_content"><b>Вакансии</b></div>
+                    <div class="vac_photo"><img src="vac/engineer.jpg" style="width: 100%; height: 100%; object-fit: cover;"></div>
+                    <div style="font-size: 1.5em; padding: 10px 0;">Требуется</div>
+                    <div style="font-size: 1.6em; padding: 5px 0 10px 0;"><b>Инженер по автоматизации<br>научных установок</b></div>
+                    <div style="padding: 10px 0 20px 0;">для участия в крупном долгосрочном<br>международном проекте</div>
+                    <a href="vacancy.html">Подробнее о вакансиях</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="contact_info">
+                <div class="adr_footer">© ЗАО НПП "Гиком", 2023<br>603155, Нижний Новгород, ул.Ульянова, д. 46</div>
+                <div class="connect_info"><a href="tel:+78311234567">+7 (831) 123-45-67</a><br><a href="mailto:gycom@gycom.ru">gycom@gycom.ru</a></div>
             </div>
         </div>
     </body>
