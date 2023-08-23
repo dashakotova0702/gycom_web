@@ -193,3 +193,14 @@
     height: 350px;
     padding: 20px 0;
 }
+@media (max-height: 1350px) {
+    .statistic {
+        padding: 1vh 0 1vh 0;
+    }
+    .head_content_center {
+        padding: 60px 0 40px 0;
+    }
+    .second_div {
+        padding: 70px 0 10vh 0;
+    }
+}
