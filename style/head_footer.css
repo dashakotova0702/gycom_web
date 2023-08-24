@@ -1,0 +1,19 @@
+.text_menu {
+    color: #000000;
+}
+.container_menu {
+    background-color: white;
+    box-shadow: 0 0.4em 5px rgba(122,122,122,0.2);
+}
+.dropdown_menu {
+    background-color: white;
+}
+.dropdown {
+    box-shadow:0 0.5em 15px rgba(122,122,122,0.5)
+}
+.home_black {
+    display: block;
+}
+.home {
+    display: none;
+}

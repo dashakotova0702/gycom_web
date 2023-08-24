@@ -3,32 +3,35 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="">
+        <link rel="shortcut icon" href="icon.png">
         <link rel="stylesheet" type="text/css" href="style/mainstyle.css">
         <link rel="stylesheet" type="text/css" href="style/style_index.css">
         <link rel="stylesheet" type="text/css" href="style/slick/slick.css"/>
         <link rel="stylesheet" type="text/css" href="style/slick/slick-theme.css"/>
+        <link rel="stylesheet" href="style/fm.revealator.jquery.min.css">
+        <script src="script/jquery-1.11.3.min.js"></script>
+        <script src="script/fm.revealator.jquery.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script type="text/javascript" src="style/slick/slick.min.js"></script>
-        <script type="text/javascript" src="script.js"></script>
+        <script type="text/javascript" src="script/script.js"></script>
         <title>ГИКОМ</title>
     </head>
     <body>
-        <div class="header">
+        <div class="header revealator-fade revealator-duration10 revealator-once">
             <div class="container_menu">
                 <div class="header_body">
                     <div class="logo">
-                        <a href="#home_page"><img class="home" src="logo_w.svg"></a>
-                        <a href="#home_page"><img class="home_black" src="logo.svg"></a>
+                        <a href="#"><img class="home" src="logo_w.svg"></a>
+                        <a href="#"><img class="home_black" src="logo.svg"></a>
                     </div>
                     <nav class="header_menu">
                         <ul class="header_list">
                             <li class="main_menu"><a href="#" class="text_menu">О компании ▾</a>
                                 <ul class="dropdown"> 
-                                    <a href="#" class="dropdown_menu"><li class="text_menu">Новости</li></a>
+                                    <a href="news.html" class="dropdown_menu"><li class="text_menu">Новости</li></a>
                                     <a href="#" class="dropdown_menu"><li class="text_menu">Вакансии</li></a>
-                                    <a href="#" class="dropdown_menu"><li class="text_menu">Публикации</li></a>
+                                    <a href="publications.html" class="dropdown_menu"><li class="text_menu">Публикации</li></a>
                                     <a href="#" class="dropdown_menu"><li class="text_menu">Заказчики и партнеры</li></a>
                                     <a href="#" class="dropdown_menu"><li class="text_menu">Благотворительность</li></a>
                                 </ul>
@@ -53,7 +56,7 @@
             </div>
         </div>
         <div class="content">
-            <div class="products">
+            <div class="products revealator-slidedown revealator-once">
                 <p class = "head_content_center"><b>Продукция</b></p>
                 <div class ="slider_products">
                     <div class="slider_item_prod">
@@ -92,7 +95,7 @@
                 </div>
             </div>
             <div class="statistic">
-                <div class="specialists">
+                <div class="specialists revealator-slideright revealator-once">
                     <p class="head_content"><b>Специалисты</b></p>
                     <div class="specialist">
                         <div class="num"><b>8</b></div>
@@ -104,7 +107,7 @@
                     </div>
                 </div>
                 <div class="short_info"></div>
-                <div class="adresses">
+                <div class="adresses revealator-slideleft revealator-once">
                     <div class="head_content"><b>Офисы</b></div>
                     <b><div class="office">Центральный</div><div class="map_off"><a href="https://yandex.ru/maps/-/CDQ4RTk5" target="_blank">Нижний Новгород, ул. Ульянова, д. 46</a></b></div>
                     <b><div class="office">Филиал НПП "Гиком-М"</div><div class="map_off"><a href="https://yandex.ru/maps/-/CDQ4R2ZB" target="_blank">Москва, ул. Введенского, д. 8</a></b></div>
@@ -112,48 +115,48 @@
                 </div>
             </div>
             <div class="second_div">
-                <div class="news">
+                <div class="news revealator-slideleft revealator-once">
                     <div class="head_content"><b>Новости</b></div>
                     <div class="slider_news">
-                        <div class="slider_item_news">
+                        <a href="news.html#25_05_2023" style="text-decoration: none;"><div class="slider_item_news">
                             <div class="news_photo"><img src="news/25_05_2023.jpg" style="width: 100%; height: 100%; object-fit: cover;"></div>
                             <div class="data_news">25 мая 2023</div>
                             <div class="news_text">Завершились заводские испытания 7-го поставочного гиротронного комплекса для международного токамака ИТЭР</div>
-                        </div>
-                        <div class="slider_item_news">
+                        </div></a>
+                        <a href="news.html#28_02_2023" style="text-decoration: none;"><div class="slider_item_news">
                             <div class="news_photo"><img src="news/28_02_2023.jpg" style="width: 100%; height: 100%; object-fit: cover;"></div>
                             <div class="data_news">28 февраля 2023</div>
                             <div class="news_text">Успешно завершились сдаточные испытания гиротронного комплекса в Хуанчжонском Университете Науки и Технологии (HUST) в г.Ухань, Китай</div>
-                        </div>
-                        <div class="slider_item_news">
+                        </div></a>
+                        <a href="news.html#15_12_2022" style="text-decoration: none;"><div class="slider_item_news">
                             <div class="news_photo"><img src="news/15_12_2022.jpg" style="width: 100%; height: 100%; object-fit: cover;"></div>
                             <div class="data_news">15 декабря 2022</div>
                             <div class="news_text">Завершились заводские испытания гиротронного комплекса для частного заказчика</div>
-                        </div>
-                        <div class="slider_item_news">
+                        </div></a>
+                        <a href="news.html#08_12_2022" style="text-decoration: none;"><div class="slider_item_news">
                             <div class="news_photo"><img src="news/08_12_2022.jpg" style="width: 100%; height: 100%; object-fit: cover;"></div>
                             <div class="data_news">8 декабря 2022</div>
                             <div class="news_text">Завершены сдаточные испытания гиротронного комплекса для ITER-India</div>
-                        </div>
-                        <div class="slider_item_news">
+                        </div></a>
+                        <a href="news.html#25_10_2022" style="text-decoration: none;"><div class="slider_item_news">
                             <div class="news_photo"><img src="news/25_10_2022.jpg" style="width: 100%; height: 100%; object-fit: cover;"></div>
                             <div class="data_news">25 октября 2022</div>
                             <div class="news_text">Завершились заводские испытания системы управления первыми двумя гиротронными комплексами ИТЭР</div>
-                        </div>
-                        <div class="slider_item_news">
+                        </div></a>
+                        <a href="news.html#13_09_2022" style="text-decoration: none;"><div class="slider_item_news">
                             <div class="news_photo"><img src="news/13_09_2022.jpg" style="width: 100%; height: 100%; object-fit: cover;"></div>
                             <div class="data_news">13 сентября 2022</div>
                             <div class="news_text">Произведена отгрузка четырех гиротронов на площадку международного термоядерного экспериментального реактора ИТЭР в г.Кадараш (Франция)</div>
-                        </div>
-                        <div class="slider_item_news">
+                        </div></a>
+                        <a href="news.html#20_06_2022" style="text-decoration: none;"><div class="slider_item_news">
                             <div class="news_photo"><img src="news/20_06_2022.jpg" style="width: 100%; height: 100%; object-fit: cover;"></div>
                             <div class="data_news">20 июня 2022</div>
                             <div class="news_text">Успешно завершились заводские испытания 6-го поставочного гиротронного комплекса для международного токамака ИТЭР</div>
-                        </div>
+                        </div></a>
                     </div>
                     <a href="news.html">Все новости</a>
                 </div>
-                <div class="vacancy">
+                <div class="vacancy revealator-slideright revealator-once">
                     <div class="head_content"><b>Вакансии</b></div>
                     <div class="vac_photo"><img src="vac/engineer.jpg" style="width: 100%; height: 100%; object-fit: cover;"></div>
                     <div style="font-size: 1.5em; padding: 10px 0;">Требуется</div>

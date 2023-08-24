@@ -1,0 +1,38 @@
+.head_content {
+    text-align: center;
+    font-size: 2em;
+    padding: 13vh 0 3vh 0;
+}
+.news {
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.news_item {
+    display: flex;
+    padding: 3vh 10px;
+    border-bottom: #000000 solid 1px;
+}
+.news_photo {
+    width: 20%;
+    aspect-ratio: 1/1; 
+    transition: 0.3s;
+}
+.news_photo:hover {
+    transform: scale(1.1);
+}
+.news_text {
+    width: 80%;
+    padding: 5px 0 5px 30px;
+}
+.news_data {
+    font-size: 1.2em;
+}
+.news_head {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 0;
+}
+:target { 
+    scroll-margin-top: 500px; 
+}
