@@ -90,7 +90,7 @@ a {
 }
 .footer {
     height: 80px;
-    box-shadow: 0 -0.4em 5px rgba(122,122,122,0.2)
+    box-shadow: 0 -0.4em 5px rgba(122,122,122,0.2);
 }
 .contact_info {
     width: 1000px;
