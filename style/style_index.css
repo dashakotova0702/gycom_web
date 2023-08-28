@@ -56,53 +56,34 @@
     width: 260px;
     height: 260px;
     transition: 0.3s;
+    border-radius: 15px;
 }
 .prod:hover {
     transform: scale(0.9);
-   }
+}
 .prod1 {
     background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,212,255,0) 70%),
         url(../img/gyrCTF.jpg);
 }
 .prod2 {
     background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,212,255,0) 70%),
-        url(../img/gyr.jpg);
+        url(../img/gyrinst.jpg);
 }
 .prod3 {
     background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,212,255,0) 70%),
-        url(../img/gyrinst.jpg);
+        url(../img/transmisslines.jpg);
 }
 .prod4 {
     background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,212,255,0) 70%),
-        url(../img/amplifier.jpg);
+        url(../img/gyr.jpg);
 }
 .prod5 {
     background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,212,255,0) 70%),
-        url(../img/electromagnet.jpg);
+        url(../img/window.jpg);
 }
 .prod6 {
     background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,212,255,0) 70%),
-        url(../img/transmisslines.jpg);
-}
-.prod7 {
-    background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,212,255,0) 70%),
-        url(../img/smallmicrowave.jpg);
-}
-.prod8 {
-    background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,212,255,0) 70%),
-        url(../img/freqmetr.jpg);
-}
-.prod9 {
-    background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,212,255,0) 70%),
-        url(../img/window.jpg);
-}
-.prod10 {
-    background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,212,255,0) 70%),
-        url(../img/gyrsubter.jpg);
-}
-.prod11 {
-    background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,212,255,0) 70%),
-        url(../img/cathod.jpeg);
+        url(../img/amplifier.jpg);
 }
 .statistic {
     display: flex;
@@ -180,6 +161,16 @@
 .news_photo {
     width: 350px;
     height: 350px;
+    transition: 0.3s;
+}
+.news_photo:hover {
+    transform: scale(0.9);
+}
+.ph {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+    border-radius: 15px;
 }
 .data_news {
     padding: 20px 0 0 0;
