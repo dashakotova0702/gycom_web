@@ -22,7 +22,8 @@ a {
     color: #000000;
 }
 .main {
-    min-height: calc(100vh - 80px);
+    min-height: calc(100vh - 110px);
+    padding: 0 0 30px 0;
 }
 .container_menu {
     padding: 0;
