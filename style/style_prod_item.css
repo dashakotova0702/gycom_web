@@ -1,10 +1,19 @@
+a {
+    text-decoration: none;
+}
 .block {
     width: 1200px;
     height: auto;
-    padding: 15vh 0;
+    padding: 17vh 0;
     margin-left: auto;
     margin-right: auto;
     display: flex;
+}
+.h_text {
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 20px 0;
+    text-align: center;
 }
 .text {
     width: 50%;
@@ -14,6 +23,12 @@
     position: absolute;               
     top: 50%;                         
     transform: translate(0, -50%);
+}
+.l {
+    padding: 0 0 0 50px;
+}
+.r {
+    padding: 0 50px 0 0;
 }
 .head_text {
     font-weight: bold;
@@ -29,15 +44,41 @@
     height: auto;
     transition: 0.3s;
 }
-.photo:hover {
+.photo:hover, .photo_line:hover {
     transform: scale(1.05);
 }
-.l {
-    padding: 0 0 0 50px;
+.photo_line {
+    width: 33%;
+    aspect-ratio: 3/2;
+    padding: 0 30px;
+    transition: 0.3s;
 }
-.r {
-    padding: 0 50px 0 0;
+.line {
+    width: 100%;
+    aspect-ratio: 3/2;
+    transition: 0.3s;
+    border-radius: 15px;
 }
-.content {
-    padding: 0 0 5vh 0;
+.line1 {
+    background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,212,255,0) 70%),
+        url(../img/transmline_1.jpg);
+    background-size: cover;
+}
+.line_text {
+    color: #ffffff;
+    padding: 15px 20px;
+    font-size: 1.2em;
+    text-align: center;
+}
+.row_3 {
+    display: flex;
+    width: 66%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.row_item {
+    width: 100%;
+    aspect-ratio: 3/2;
+    padding: 0 30px;
+    transition: 0.3s;
 }
