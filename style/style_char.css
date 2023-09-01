@@ -1,0 +1,45 @@
+a {
+    text-decoration: none;
+}
+.block {
+    width: 1200px;
+    height: auto;
+    padding: 5vh 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.photo_line {
+    width: 33%;
+    aspect-ratio: 2/3;
+    padding: 0 30px;
+}
+.char {
+    height: 100%;
+    border-radius: 15px;
+    position: relative;
+}
+.char1 {
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 90%),
+        url(../img/students.jpg);
+    background-size: cover;
+}
+.char2 {
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 90%),
+        url(../img/detdom.jpg);
+    background-size: cover;
+}
+.char3 {
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 90%),
+        url(../img/nn.jpg);
+    background-size: cover;
+}
+.charity_text {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #ffffff;
+    bottom: 0;
+    padding: 15px 20px;
+    text-align: center;
+}
