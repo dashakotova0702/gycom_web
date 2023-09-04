@@ -1,0 +1,28 @@
+.head_text {
+    font-weight: bold;
+    font-size: 2em;
+    padding: 10px 0;
+}
+.description {
+    padding: 20px;
+    font-size: 1.3em;
+}
+.block {
+    width: 50%;
+}
+.cont {
+    display: flex;
+}
+.dir {
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 2px 0;
+}
+.mail, .tel {
+    font-size: 1.2em;
+    padding: 2px 0;
+}
+.adr {
+    font-size: 1.3em;
+    padding: 10px 0;
+}

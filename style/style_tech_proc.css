@@ -1,0 +1,49 @@
+a {
+    text-decoration: none;
+}
+.block {
+    width: 1200px;
+    height: auto;
+    padding: 17vh 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.h_text {
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 20px 0;
+    text-align: center;
+}
+.text {
+    width: 40%;
+    position: relative;
+}
+.t {
+    position: absolute;               
+    top: 50%;                         
+    transform: translate(0, -50%);
+}
+.l {
+    padding: 0 0 0 50px;
+}
+.r {
+    padding: 0 50px 0 0;
+}
+.head_text {
+    font-weight: bold;
+    font-size: 2.8em;
+    padding: 10px 0;
+}
+.description {
+    padding: 10px 0;
+    font-size: 1.3em;
+}
+.photo {
+    width: 60%;
+    height: auto;
+    transition: 0.3s;
+}
+.photo:hover {
+    transform: scale(1.05);
+}
