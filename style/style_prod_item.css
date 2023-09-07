@@ -2,17 +2,23 @@ a {
     text-decoration: none;
 }
 .block {
-    width: 1200px;
+    width: 80%;
     height: auto;
-    padding: 17vh 0;
+    margin: 30vh 0;
     margin-left: auto;
     margin-right: auto;
     display: flex;
 }
+.first {
+    margin: 8vh auto 25vh auto;
+}
+.end {
+    margin: 30vh auto 15vh auto;
+}
 .h_text {
-    font-size: 1.3em;
+    font-size: 2.8vh;
     font-weight: bold;
-    padding: 20px 0;
+    padding: 2vh;
     text-align: center;
 }
 .text {
@@ -25,19 +31,19 @@ a {
     transform: translate(0, -50%);
 }
 .l {
-    padding: 0 0 0 50px;
+    padding: 0 0 0 2vw;
 }
 .r {
-    padding: 0 50px 0 0;
+    padding: 0 2vw 0 0;
 }
 .head_text {
     font-weight: bold;
-    font-size: 2.8em;
-    padding: 10px 0;
+    font-size: 4vh;
+    padding: 2vh 0;
 }
 .description {
-    padding: 10px 0;
-    font-size: 1.3em;
+    padding: 1vh 0;
+    font-size: 2.3vh;
 }
 .photo {
     width: 50%;
@@ -52,14 +58,14 @@ a {
 .photo_line {
     width: 33%;
     aspect-ratio: 3/2;
-    padding: 0 30px;
+    padding: 0 2vh;
     transition: 0.3s;
 }
 .line, .comp {
     width: 100%;
     aspect-ratio: 3/2;
     transition: 0.3s;
-    border-radius: 15px;
+    border-radius: 5%;
 }
 .comp1 {
     background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,212,255,0) 70%),
@@ -73,20 +79,20 @@ a {
 }
 .line_text {
     color: #ffffff;
-    padding: 15px 20px;
-    font-size: 1.2em;
+    padding: 2vh 2.5vh;
+    font-size: 1.8vh;
     text-align: center;
 }
 .row_3 {
     display: flex;
     width: 66%;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 .row_item {
     width: 100%;
     aspect-ratio: 3/2;
-    padding: 0 30px;
+    padding: 0 2vh;
     transition: 0.3s;
 }
 .row_2 {

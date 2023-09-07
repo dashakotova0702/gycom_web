@@ -5,21 +5,27 @@
     background-position: center;
 }
 .container_name {
-    width:100%;
+    width: 100%;
+}
+.head_content_center_index {
+    font-weight: bold;
+    text-align: center;
+    font-size: 3.8vh;
+    padding: 5vh 0 6vh 0;
 }
 .heading {
     margin-left: auto;
     margin-right: auto;
-    width: 1440px;
+    width: 70%;
     height: 100vh;
     display: grid;
     align-items: end;
 }
 .head_name {
     color: #ffffff;
-    font-size: 3em;  
+    font-size: 4.8vh;  
     text-align: right;
-    padding: 0 0 70px 0;
+    padding: 0 0 7vh 0;
 }
 .content {
     width: 100%;
@@ -28,35 +34,30 @@
 .products {
     margin-left: auto;
     margin-right: auto;
-    width: 1440px;
-    padding: 20px 0;
-}
-.head_content_center {
-    text-align: center;
-    font-size: 2.5em;
-    padding: 60px 0 70px 0;
+    width: 70%;
+    padding: 2vh 0;
 }
 .dots {
     padding: 20px 0;
   }
 .slider_products {
-    height: 300px;
+    padding: 0 0 1vh 0;
 }
 .slider_item_prod {
-    width: 260px;
-    height: 260px;
+    width: 1%;
+    aspect-ratio: 1/1;
 }
 .product_slider {
     color: #ffffff;
     text-align: center;
-    padding: 10px 0 0 0;
-    font-size: 0.9em;
+    padding: 2vh 0 0 0;
+    font-size: 1.8vh;
 }
 .prod {
-    width: 260px;
-    height: 260px;
+    width: 93%;
+    aspect-ratio: 1/1;
     transition: 0.3s;
-    border-radius: 15px;
+    border-radius: 5%;
 }
 .prod:hover {
     transform: scale(0.9);
@@ -87,80 +88,79 @@
 }
 .statistic {
     display: flex;
-    width: 1400px;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
-    padding: 30px 0 10vh 0;
+    padding: 1vh 0 8vh 0;
 }
 .specialists {
     width: 30%;
     display: grid;
 }
 .head_content {
-    font-size: 2em;
-    padding: 0 0 15px 0;
+    font-size: 3.8vh;
+    padding: 0 0 2vh 0;
 }
 .specialist {
     display: flex;
     padding: 3px 0;
 }
 .num {
-    font-size: 5em;
+    font-size: 9vh;
     text-align: right;
     width: 25%;
-    padding: 0 20px 0 0;
+    padding: 0 3vh 0 0;
     display: grid;
     align-items: end;
 }
 .specialists_info {
-    font-size: 1.3em;
+    font-size: 2.1vh;
     text-align: left;
     width: 75%;
     display: grid;
     align-items: end;
 }
 .short_info {
-    width: 40%;
+    width: 35%;
     height: auto;
-    padding: 0 40px;
+    padding: 0 5vh;
 }
 .adresses {
-    width: 30%;
+    width: 35%;
 }
 .office {
-    font-size: 1.5em;
-    padding: 5px 0;
+    font-size: 2.4vh;
+    padding: 1vh 0;
 }
 .map_off {
-    font-size: 1.2em;
-    padding: 0 0 5px 0;
+    font-size: 2.1vh;
+    padding: 0 0 1vh 0;
 }
 .second_div {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    width: 1400px;
-    padding: 70px 0 10vh 0;
+    width: 70%;
+    padding: 7vh 0;
 }
 .news {
     width: 60%;
-    height:auto;
+    height: auto;
 }
 .vacancy {
     padding: 0 0 0 20px;
     width: 40%;
 }
 .slider_news {
-    padding: 20px 0;
-    height: 550px;
+    padding: 2vh 0.5vh;
 }
 .slider_item_news {
-    height: 550px;
-    width: 350px;
+    height: 80%;
+    aspect-ratio: 1/1;
 }
 .news_photo {
-    width: 350px;
-    height: 350px;
+    width: 85%;
+    aspect-ratio: 1/1;
     transition: 0.3s;
 }
 .news_photo:hover {
@@ -170,51 +170,23 @@
     width: 100%; 
     height: 100%; 
     object-fit: cover;
-    border-radius: 15px;
+    border-radius: 5%;
 }
 .data_news {
-    padding: 20px 0 0 0;
+    padding: 3vh 0 0 0;
+    font-size: 2.3vh;
 }
 .news_text {
     font-weight: bold;
-    padding: 10px 0;
-    width: 350px;
+    padding: 2vh 0;
+    font-size: 1.8vh;
+    width: 80%;
 }
 .vac_photo {
     width: 90%;
-    height: 350px;
-    padding: 20px 0;
+    aspect-ratio: 3/2;
+    padding: 2vh 0;
 }
-@media (max-height: 1350px) {
-    .statistic {
-        padding: 1vh 0 1vh 0;
-    }
-    .head_content_center {
-        padding: 60px 0 40px 0;
-    }
-    .second_div {
-        padding: 70px 0 10vh 0;
-    }
-}
-@media (max-height: 1500px) {
-    .statistic {
-        padding: 0.5vh 0 2vh 0;
-    }
-    .head_content_center {
-        padding: 60px 0 40px 0;
-    }
-    .second_div {
-        padding: 70px 0 5vh 0;
-    }
-}
-@media (max-height: 1100px) {
-    .statistic {
-        padding: 30px 0 8vh 0;
-    }
-    .head_content_center {
-        padding: 80px 0 70px 0;
-    }
-    .second_div {
-        padding: 70px 0 10vh 0;
-    }
+.link_to {
+    font-size: 2.2vh;
 }

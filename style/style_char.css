@@ -2,7 +2,7 @@ a {
     text-decoration: none;
 }
 .block {
-    width: 1200px;
+    width: 75%;
     height: auto;
     padding: 5vh 0;
     margin-left: auto;
@@ -12,11 +12,11 @@ a {
 .photo_line {
     width: 33%;
     aspect-ratio: 2/3;
-    padding: 0 30px;
+    padding: 0 1vw;
 }
 .char {
     height: 100%;
-    border-radius: 15px;
+    border-radius: 5%;
     position: relative;
 }
 .char1 {
@@ -40,6 +40,7 @@ a {
     right: 0;
     color: #ffffff;
     bottom: 0;
-    padding: 15px 20px;
+    padding: 2vh 1.5vh;
     text-align: center;
+    font-size: 1.8vh
 }

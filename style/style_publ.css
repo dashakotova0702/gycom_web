@@ -1,50 +1,42 @@
-.head_content_center {
-    font-weight: bold;
-    text-align: center;
-    font-size: 2em;
-    padding: 140px 0 1vh 0;
-}
 .head_content {
     font-weight: bold;
-    font-size: 2em;
-    padding: 1.5vh 0;
-}
-.content {
-    width: 1280px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 0 50px 0;
+    font-size: 3.5vh;
+    padding: 1.5vh 5%;
 }
 table {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
     border-spacing: 0;
-    padding: 15px 0;
+    padding: 2vh 0;
 }
 .author {
-    width: 30%;
-    padding: 15px;
-    font-size: 1.2em;
+    width: 25%;
+    padding: 1.5vh;
+    font-size: 1.8vh;
 }
 .name {
-    width: 40%;
-    padding: 15px;
-    font-size: 1.1em;
+    width: 35%;
+    padding: 1.5vh;
+    font-size: 2vh;
     font-weight: bold;
     text-align: center;
 }
 .mag {
-    width: 20%;
-    padding: 15px;
+    width: 15%;
+    padding: 1.5vh;
     font-style: italic;
+    font-size: 1.5vh;
 }
 .link {
-    width: 10%;
-    padding: 15px 40px;
+    width: 5%;
+    padding: 1vh 2vh;
     align-items: center;
 }
 tr:nth-child(odd) {
 	background-color: #f1f1f1;
 }
 .pdf {
-    width: 40px;
+    width: 3vh;
     height: auto;
 }

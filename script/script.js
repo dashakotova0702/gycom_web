@@ -25,7 +25,8 @@ $(document).ready(function(){
         autoplaySpeed: 2000,
         dots: true,
         infinite: true,
-        arrows: false
+        arrows: false,
+        centerPadding: '160px'
     });
     $('.slider_news').slick({
         slidesToShow: 2,

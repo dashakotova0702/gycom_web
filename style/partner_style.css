@@ -1,17 +1,16 @@
 .text {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 3vh;
     font-weight: bold;
-    padding: 50px 0;
+    padding: 1.5vh 0;
 }
 .logos {
-    padding: 10px;
-    width: 180px;
-    height: 180px;
+    width: 12vw;
+    aspect-ratio: 1/1;
 }
 .logo_table {
-    width: 960px;
-    padding: 20px 0;
+    width: 80%;
+    padding: 2.5vh 0;
     margin-left: auto;
     margin-right: auto;
 }
@@ -20,9 +19,9 @@
 }
 .item {
     background-color: #f1f1f1;
-    width: 200px;
-    height: 200px;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 15px;
+    width: 12vw;
+    aspect-ratio: 1/1;
+    padding: 1vw;
+    margin: 1vw;
+    border-radius: 5%;
 }
