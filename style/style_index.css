@@ -1,6 +1,6 @@
 .header {
     background-image: url(../bg.png);
-    height: 100vh;
+    height: 100svh;
     background-size: cover;
     background-position: center;
 }
@@ -17,7 +17,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 70%;
-    height: 100vh;
+    height: 100svh;
     display: grid;
     align-items: end;
 }
@@ -93,30 +93,38 @@
     margin-right: auto;
     padding: 1vh 0 8vh 0;
 }
-.specialists {
-    width: 30%;
+.about {
+    width: 65%;
     display: grid;
+}
+.row {
+    display: flex;
 }
 .head_content {
     font-size: 3.8vh;
     padding: 0 0 2vh 0;
 }
-.specialist {
+.fact_l {
     display: flex;
+    width: 40%;
+    padding: 3px 0;
+}
+.fact_r {
+    display: flex;
+    width: 60%;
     padding: 3px 0;
 }
 .num {
-    font-size: 9vh;
-    text-align: right;
-    width: 25%;
-    padding: 0 3vh 0 0;
+    font-size: 8vh;
+    width: 30%;
     display: grid;
     align-items: end;
+    font-weight: bold;
 }
-.specialists_info {
+.info {
     font-size: 2.1vh;
     text-align: left;
-    width: 75%;
+    width: 70%;
     display: grid;
     align-items: end;
 }
@@ -189,4 +197,15 @@
 }
 .link_to {
     font-size: 2.2vh;
+}
+@media (aspect-ratio: 4/3) or (aspect-ratio:10/7) or (aspect-ratio:3/2){
+    .products {
+        width: 90%;
+    }
+
+}
+@media screen and (max-width:900px) {
+    .header {
+        height: 50vh;
+    }
 }

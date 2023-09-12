@@ -13,15 +13,18 @@
     border-bottom: #000000 solid 1px;
 }
 .news_photo {
-    width: 20%;
-    aspect-ratio: 1/1; 
+    width: 25%;
+    aspect-ratio: 1/1;
+    margin-top: auto;
+    margin-bottom: auto;
+    object-fit: cover;
     transition: 0.3s;
 }
 .news_photo:hover {
     transform: scale(1.1);
 }
 .news_text {
-    width: 80%;
+    width: 75%;
     padding: 2vh 0 2vh 3vh;
 }
 .news_data {
@@ -37,4 +40,6 @@
 }
 :target { 
     scroll-margin-top: 580px; 
+}
+@media (max-width: 1300px) {
 }
