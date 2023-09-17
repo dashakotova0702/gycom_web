@@ -41,5 +41,30 @@
 :target { 
     scroll-margin-top: 580px; 
 }
-@media (max-width: 1300px) {
+@media screen and (max-width: 1024px) 
+    and (not ((width:1024px) and (height:768px))) {
+    .news_item {
+        display: grid;
+        padding: 3vh 0 1vh 0;
+    }
+    .news_photo {
+        width: 90%;
+        aspect-ratio: 3/2;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .news_data {
+        font-size: 1.5vh;
+    }
+    .news_head {
+        font-size: 1.8vh;
+    }
+    .news_subtitle {
+        font-size: 1.3vh;
+    }
+    .news_text {
+        width: 90%;
+        padding: 0;
+        margin: 2vh auto;
+    }
 }

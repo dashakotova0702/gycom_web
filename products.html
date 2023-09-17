@@ -15,29 +15,30 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script type="text/javascript" src="style/slick/slick.min.js"></script>
+        <script type="text/javascript" src="script/script_header.js"></script>
         <title>ГИКОМ</title>
     </head>
     <body>
         <div class="main">
             <div class="header revealator-fade revealator-duration10 revealator-once">
                 <div class="container_menu">
-                    <div class="header_body">
+                    <div class="header_body"> 
                         <div class="logo">
-                            <a href="index.html"><img class="home" src="logo_w.svg"></a>
                             <a href="index.html"><img class="home_black" src="logo.svg"></a>
+                            <a href="index.html"><img class="home_mob_black" src="logo_only.svg"></a>
                         </div>
+                        <div class="header_burger_black"><span></span></div>
                         <nav class="header_menu">
                             <ul class="header_list">
-                                <li class="main_menu"><a href="#" class="text_menu menu_main_text"><div class="inner">О компании ▾</div></a>
+                                <li class="main_menu"><a href="#" class="menu_main_text"><div class="inner">О компании ▾</div></a>
                                     <ul class="dropdown"> 
                                         <a href="news.html" class="dropdown_menu"><li class="text_menu">Новости</li></a>
-                                        <a href="#" class="dropdown_menu"><li class="text_menu">Вакансии</li></a>
-                                        <a href="publications.html" class="dropdown_menu"><li class="text_menu">Публикации</li></a>
+                                        <!--<a href="publications.html" class="dropdown_menu"><li class="text_menu">Публикации</li></a>-->
                                         <a href="partners.html" class="dropdown_menu"><li class="text_menu">Заказчики и партнеры</li></a>
                                         <a href="charity.html" class="dropdown_menu" ><li class="text_menu">Благотворительность</li></a>
                                     </ul>
                                 </li>
-                                <li class="main_menu"><a href = "#" class="text_menu menu_main_text"><div class="inner">Производство ▾</div></a>
+                                <li class="main_menu"><a href="#" class="menu_main_text"><div class="inner">Производство ▾</div></a>
                                     <ul class="dropdown"> 
                                         <a href="#" class="dropdown_menu"><li class="text_menu">Продукция</li></a>
                                         <a href="exp_base.html" class="dropdown_menu"><li class="text_menu">Экспериментальная база</li></a>
@@ -45,7 +46,7 @@
                                         <a href="#" class="dropdown_menu"><li class="text_menu">Проектная деятельность</li></a>
                                     </ul>
                                 </li>
-                                <li class="main_menu"><a href = "contact.html" class="text_menu menu_main_text"><div class="inner">Контакты</div></li></a>
+                                <li class="main_menu"><a href = "contact.html" class="menu_main_text"><div class="inner">Контакты</div></li></a>
                             </ul>
                         </nav>
                     </div>
@@ -105,7 +106,7 @@
                     </div>
                     <div class="prod_items">
                         <a href="components.html" style="text-decoration: none;" target="_blank">
-                            <div class="prod_item revealator-slideleft">
+                            <div class="prod_item revealator-slideleft revealator-once">
                                 <div class="prod_text">
                                         <p class="prod_head">Компоненты гиротронных комплексов</p>
                                         <p class="prod_descr">Отдельные элементы приборов вакуумной электроники</p>
@@ -116,7 +117,7 @@
                             </div>
                         </a>
                         <a href="amplifier.html" style="text-decoration: none;" target="_blank">
-                            <div class="prod_item revealator-slideright">
+                            <div class="prod_item revealator-slideright revealator-once">
                                 <div class="prod_text">
                                         <p class="prod_head">Мощные усилители мм-диапазона частот</p>
                                         <p class="prod_descr">Мощность - сотни киловатт при длительности импульса порядка 100 мкс. Полоса усиления до 2 ГГц.</p>

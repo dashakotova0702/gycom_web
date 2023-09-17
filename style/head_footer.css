@@ -11,9 +11,6 @@
 .dropdown {
     box-shadow:0 0.5em 15px rgba(122,122,122,0.5)
 }
-.home_black {
-    display: block;
-}
-.home {
-    display: none;
+.inner {
+    background-color: #ffffff;
 }

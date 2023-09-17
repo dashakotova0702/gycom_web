@@ -19,24 +19,32 @@ $(window).scroll(function() {
         $(".header_burger_black").css("display", "none");
     }
     if (($(window).scrollTop() > 0) && $(window).width() > 425) {
+        $(".home_mob").css("display", "none");
+        $(".home_mob_black").css("display", "none");
         $(".home").css("display", "none");
         $(".home_black").css("display", "block");
-    } else if (($(window).scrollTop() == 0) && $(window).width() > 425){
+    } else if (($(window).scrollTop() <= 0) && $(window).width() > 425){
+        $(".home_mob").css("display", "none");
+        $(".home_mob_black").css("display", "none");
         $(".home").css("display", "block");
         $(".home_black").css("display", "none");
     } else if (($(window).scrollTop() > 0) && $(window).width() < 425) {
+        $(".home").css("display", "none");
+        $(".home_black").css("display", "none");
         $(".home_mob").css("display", "none");
         $(".home_mob_black").css("display", "block");
-    } else if (($(window).scrollTop() == 0) && $(window).width() < 425){
+    } else if (($(window).scrollTop() <= 0) && $(window).width() < 425){
+        $(".home").css("display", "none");
+        $(".home_black").css("display", "none");
         $(".home_mob").css("display", "block");
         $(".home_mob_black").css("display", "none");
     }
-    if($(window).scrollTop() > 0 && $(window).width() <= 900) {
+    if($(window).scrollTop() > 0 && $(window).width() <= 1024) {
         $(".inner").css("background-color", "white");
     } else if ($(window).scrollTop() == 0) {
         $(".inner").css("background-color", "transparent");
     }
-    if(($(window).scrollTop() > (window.innerHeight) && $(window).width() > 900)){
+    if(($(window).scrollTop() > (window.innerHeight) && $(window).width() > 1024)){
         $('.30').animate({ num: 30}, {
             duration: 1000,
             step: function (num){
@@ -107,7 +115,7 @@ $(document).ready(function(){
             centerPadding: '160px'
         });
     }
-    if(($(window).width() <= 900)){
+    if(($(window).width() <= 1024)){
         $('.30').animate({ num: 30}, {
             duration: 1000,
             step: function (num){
