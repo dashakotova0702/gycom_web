@@ -101,3 +101,59 @@ a {
     margin-left:auto;
     margin-right:auto;
 }
+@media screen and (max-width: 1024px){
+    .block {
+        display: grid;
+        margin: 30vh auto;
+    }
+    .first {
+        margin: 3vh auto 30vh auto;
+    }
+    .end {
+        margin: 30vh auto 10vh auto;
+    }
+    .text {
+        width: 90%;
+        margin: 0 auto;
+        display: grid;
+    }
+    .photo {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .head_text {
+        font-size: 2.2vh;
+        text-align: center;
+    }
+    .description {
+        text-align: justify;
+        font-size: 1.6vh;
+        padding: 1vh 0 2vh 0;
+    }
+    .t {
+        position: relative;
+        top: 0;
+        transform: none;
+    }
+    .l, .r {
+        padding: 0;
+    }
+    .head_content_center {
+        padding: 3vh 5vw 1vh 5vw;
+    }
+    .h_text {
+        font-size: 2.3vh;
+    }
+    .photo_line {
+        width: 90%;
+        padding: 2vh;
+    }
+    .row_3, .row_2 {
+        display: grid;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .row_item {
+        padding: 2vh 0;
+    }
+}

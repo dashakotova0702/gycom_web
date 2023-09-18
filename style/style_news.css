@@ -41,8 +41,7 @@
 :target { 
     scroll-margin-top: 580px; 
 }
-@media screen and (max-width: 1024px) 
-    and (not ((width:1024px) and (height:768px))) {
+@media screen and (max-width: 1024px) {
     .news_item {
         display: grid;
         padding: 3vh 0 1vh 0;

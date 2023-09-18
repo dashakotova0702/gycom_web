@@ -17,6 +17,7 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script type="text/javascript" src="style/slick/slick.min.js"></script>
+        <script type="text/javascript" src="script/script_header.js"></script>
         <script>
             lightbox.option({
                 'resizeDuration': 0,
@@ -28,29 +29,34 @@
             .block {
                 margin: 3vh auto;
             }
+            @media screen and (max-width:1024px) and (not ((width:1024px) and (height:768px))) {
+                .block {
+                margin: 0 auto;
+                }
+            }
         </style>
         <title>ГИКОМ</title>
     </head>
     <body>
         <div class="header revealator-fade revealator-duration10 revealator-once">
             <div class="container_menu">
-                <div class="header_body">
+                <div class="header_body"> 
                     <div class="logo">
-                        <a href="index.html"><img class="home" src="logo_w.svg"></a>
                         <a href="index.html"><img class="home_black" src="logo.svg"></a>
+                        <a href="index.html"><img class="home_mob_black" src="logo_only.svg"></a>
                     </div>
+                    <div class="header_burger_black"><span></span></div>
                     <nav class="header_menu">
                         <ul class="header_list">
-                            <li class="main_menu"><a href="#" class="text_menu menu_main_text"><div class="inner">О компании ▾</div></a>
+                            <li class="main_menu"><a href="#" class="menu_main_text"><div class="inner">О компании ▾</div></a>
                                 <ul class="dropdown"> 
                                     <a href="news.html" class="dropdown_menu"><li class="text_menu">Новости</li></a>
-                                    <a href="#" class="dropdown_menu"><li class="text_menu">Вакансии</li></a>
-                                    <a href="publications.html" class="dropdown_menu"><li class="text_menu">Публикации</li></a>
+                                    <!--<a href="publications.html" class="dropdown_menu"><li class="text_menu">Публикации</li></a>-->
                                     <a href="partners.html" class="dropdown_menu"><li class="text_menu">Заказчики и партнеры</li></a>
                                     <a href="charity.html" class="dropdown_menu" ><li class="text_menu">Благотворительность</li></a>
                                 </ul>
                             </li>
-                            <li class="main_menu"><a href = "#" class="text_menu menu_main_text"><div class="inner">Производство ▾</div></a>
+                            <li class="main_menu"><a href="#" class="menu_main_text"><div class="inner">Производство ▾</div></a>
                                 <ul class="dropdown"> 
                                     <a href="products.html" class="dropdown_menu"><li class="text_menu">Продукция</li></a>
                                     <a href="exp_base.html" class="dropdown_menu"><li class="text_menu">Экспериментальная база</li></a>
@@ -58,7 +64,7 @@
                                     <a href="#" class="dropdown_menu"><li class="text_menu">Проектная деятельность</li></a>
                                 </ul>
                             </li>
-                            <li class="main_menu"><a href = "contact.html" class="text_menu menu_main_text"><div class="inner">Контакты</div></li></a>
+                            <li class="main_menu"><a href = "contact.html" class="menu_main_text"><div class="inner">Контакты</div></li></a>
                         </ul>
                     </nav>
                 </div>
@@ -70,34 +76,34 @@
                 <div class="h_text revealator-fade revealator-duration10 revealator-once">
                     ЗАО НПП "ГИКОМ" производит квазиоптические линии передачи и сверхразмерные волноводы, оснащенные:
                 </div>
-                <div class="block revealator-slideright revealator-once">
-                    <div class="photo_line">
+                <div class="block">
+                    <div class="photo_line revealator-slideright revealator-once">
                         <a href="img/transmline_1.jpg" data-lightbox="gyrCTF_1"><div class="line line1"><p class="line_text">преобразователями типов волны</p></div></a>
                     </div>
-                    <div class="photo_line">
+                    <div class="photo_line revealator-slideright revealator-once">
                         <a href="img/transmline_1.jpg" data-lightbox="gyrCTF_1"><div class="line line1"><p class="line_text">универсальными поляризаторами</p></div></a>
                     </div>
-                    <div class="photo_line">
+                    <div class="photo_line revealator-slideright revealator-once">
                         <a href="img/transmline_1.jpg" data-lightbox="gyrCTF_1"><div class="line line1"><p class="line_text">двунаправленными ответвителями</p></div></a>
                     </div>
                 </div>
-                <div class="block revealator-slideleft revealator-once">
-                    <div class="photo_line">
+                <div class="block">
+                    <div class="photo_line revealator-slideleft revealator-once">
                         <a href="img/transmline_1.jpg" data-lightbox="gyrCTF_1"><div class="line line1"><p class="line_text">делителями/комбинаторами/переключателями волновых колебаний</p></div></a>
                     </div>
-                    <div class="photo_line">
+                    <div class="photo_line revealator-slideleft revealator-once">
                         <a href="img/transmline_1.jpg" data-lightbox="gyrCTF_1"><div class="line line1"><p class="line_text">уплотнителями</p></div></a>
                     </div>
-                    <div class="photo_line">
+                    <div class="photo_line revealator-slideleft revealator-once">
                         <a href="img/transmline_1.jpg" data-lightbox="gyrCTF_1"><div class="line line1"><p class="line_text">дуплексерами, фильтрами</p></div></a>
                     </div>
                 </div>
-                <div class="block revealator-slideup revealator-once">
+                <div class="block">
                     <div class="row_3">
-                        <div class="row_item">
+                        <div class="row_item revealator-slideright revealator-once">
                             <a href="img/transmline_1.jpg" data-lightbox="gyrCTF_1"><div class="line line1"><p class="line_text">резонаторными кольцами</p></div></a>
                         </div>
-                        <div class="row_item">
+                        <div class="row_item revealator-slideleft revealator-once">
                             <a href="img/transmline_1.jpg" data-lightbox="gyrCTF_1"><div class="line line1"><p class="line_text">компрессорами ВЧ-импульсов</p></div></a>
                         </div>
                     </div>
