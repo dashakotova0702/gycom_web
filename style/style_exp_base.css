@@ -46,6 +46,61 @@ a {
     transform: scale(1.05);
 }
 .vid {
-    width: 70%;
+    width: 50%;
     height: auto;
+}
+.first {
+    margin: 5vh auto;
+}
+@media screen and (max-width: 1024px) {
+    .content {
+        width: 100%;
+    }
+    .block {
+        width: 90%;
+        margin: 5vh auto;
+    }
+    .first {
+        margin: 2vh auto 5vh auto;
+    }
+    .head_text {
+        font-size: 3vh;
+    }
+    .description {
+        font-size: 1.4vh;
+    }
+}
+@media screen and (max-width: 425px) {
+    .block {
+        display: grid;
+        width: 100%;
+        margin: 1vh auto 3vh auto;
+    }
+    .stand {
+        width: 80%;
+        margin: 0 auto;
+        padding: 3vh 0;
+    }
+    .description {
+        text-align: justify;
+        padding: 3vh 0;
+    }
+    .text {
+        width: 80%;
+        margin: 0 auto;
+        display: grid;
+    }
+    .t {
+        position: relative;
+        top: 0;
+        transform: none;
+    }
+    .vid {
+        width: 80%;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .end {
+        margin: 1vh auto 5vh auto;
+    }
 }

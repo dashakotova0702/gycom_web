@@ -43,3 +43,49 @@ a {
 .photo:hover {
     transform: scale(1.05);
 }
+.dif {
+    font-size: 3.6vh;
+}
+@media screen and (max-width: 1024px) {
+    .content {
+        width: 100%;
+    }
+    .block {
+        width: 90%;
+        margin: 5vh auto;
+    }
+    .head_text {
+        font-size: 3vh;
+    }
+    .dif {
+        font-size: 2.5vh;
+    }
+    .text {
+        width: 60%
+    }
+}
+@media screen and (max-width: 425px) {
+    .block {
+        display: grid;
+        margin: 3vh auto;
+    }
+    .text {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .t {
+        position: relative;               
+        top: 0;                         
+        transform: none;
+    }
+    .photo {
+        width: 100%;
+    }
+    .l, .r {
+        padding: 0;
+    }
+    .dif {
+        font-size: 3vh;
+    }
+}
