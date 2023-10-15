@@ -39,10 +39,15 @@ a {
 }
 .photo {
     width: 100%;
+    aspect-ratio: 3/2;
     height: auto;
     transition: 0.3s;
 }
-.photo:hover, .video:hover {
+.photo_stand {
+    width: 50%;
+    transition: 0.3s;
+}
+.photo:hover, .video:hover, .photo_stand:hover {
     transform: scale(1.05);
 }
 .vid {
@@ -81,6 +86,11 @@ a {
         margin: 0 auto;
         padding: 3vh 0;
     }
+    .photo_stand {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .description {
         text-align: justify;
         padding: 3vh 0;
@@ -102,5 +112,11 @@ a {
     }
     .end {
         margin: 1vh auto 5vh auto;
+    }
+    .l {
+        padding: 0;
+    }
+    .r {
+        padding: 0;
     }
 }

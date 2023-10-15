@@ -6,6 +6,10 @@
 .prod_items {
     display: flex;
 }
+.prod_mid {
+    margin-left: auto;
+    margin-right: auto;
+}
 .prod_item {
     display: flex;
     flex-grow: 1;

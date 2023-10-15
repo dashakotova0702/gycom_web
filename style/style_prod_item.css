@@ -61,6 +61,12 @@ a {
     padding: 0 2vh;
     transition: 0.3s;
 }
+.photo_comp {
+    display: flex;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
 .line, .comp {
     width: 100%;
     aspect-ratio: 3/2;
@@ -68,13 +74,60 @@ a {
     border-radius: 5%;
 }
 .comp1 {
-    background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,212,255,0) 70%),
-        url(../img/gyrsubmm_1.jpg);
-    background-size: cover;
+    background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,212,255,0) 30%),
+        url(../img/components_1.jpg);
+    background-size: auto 100%;
+}
+.comp2 {
+    background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,212,255,0) 30%),
+        url(../img/components_2.jpg);
+    background-size: 100% auto;
+    background-position: 100% 0%;
+}
+.comp3 {
+    background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,212,255,0) 30%),
+        url(../img/components_3.jpg);
+    background-size: 100% auto;  
+}
+.comp4 {
+    background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,212,255,0) 30%),
+        url(../img/components_4.jpg);
+    background-size: auto 100%;
+}
+.comp5 {
+    background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,212,255,0) 30%),
+        url(../img/components_5.jpg);
+    background-size: auto 100%;
 }
 .line1 {
-    background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,212,255,0) 70%),
-        url(../img/transmline_1.jpg);
+    background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,212,255,0) 30%),
+        url(../img/transmissline_1.jpg);
+    background-size: auto 100%;
+}
+.line2 {
+    background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,212,255,0) 30%),
+        url(../img/transmisslines_2.jpg);
+    background-size: cover;
+}
+.line3 {
+    background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,212,255,0) 30%),
+        url(../img/transmisslines_3.jpg);
+    background-size: cover;
+    background-position: 100% 85%;
+}
+.line4 {
+    background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,212,255,0) 30%),
+        url(../img/transmisslines_4.jpg);
+    background-size: cover;
+}
+.line5 {
+    background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,212,255,0) 30%),
+        url(../img/transmisslines_5.jpg);
+    background-size: cover;
+}
+.line6 {
+    background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,212,255,0) 30%),
+        url(../img/transmisslines_6.jpg);
     background-size: cover;
 }
 .line_text {
@@ -148,7 +201,7 @@ a {
         width: 90%;
         padding: 2vh;
     }
-    .row_3, .row_2 {
+    .row_3, .row_2, .photo_comp {
         display: grid;
         width: 90%;
         margin: 0 auto;

@@ -76,26 +76,31 @@
 .prod1 {
     background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,212,255,0) 70%),
         url(../img/gyrCTF.JPG);
+    background-size: auto 100%;
+    background-position: 40% 100%;
 }
 .prod2 {
     background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,212,255,0) 70%),
         url(../img/gyrinst.jpg);
+    background-size: auto 100%;
+    background-position: 45% 100%;
 }
 .prod3 {
     background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,212,255,0) 70%),
         url(../img/transmisslines.jpg);
+    background-size: auto 100%;
+    background-position: 45% 100%;
 }
 .prod4 {
     background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,212,255,0) 70%),
         url(../img/gyr.jpg);
+    background-size: auto 100%;
+    background-position: 50% 100%;
 }
 .prod5 {
     background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,212,255,0) 70%),
-        url(../img/window.jpg);
-}
-.prod6 {
-    background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,212,255,0) 70%),
-        url(../img/amplifier.jpg);
+        url(../img/components.jpg);
+    background-size: auto 100%;
 }
 .statistic {
     display: flex;

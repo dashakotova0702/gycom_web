@@ -44,7 +44,7 @@ $(window).scroll(function() {
     } else if ($(window).scrollTop() == 0) {
         $(".inner").css("background-color", "transparent");
     }
-    if(($(window).scrollTop() > (window.innerHeight) && $(window).width() > 1024)){
+    if(($(window).scrollTop() > (window.innerHeight*0.8) && $(window).width() > 1024)){
         $('.30').animate({ num: 30}, {
             duration: 1000,
             step: function (num){
@@ -78,7 +78,6 @@ $(document).ready(function(){
             slidesToScroll: 1,
             autoplay: true,
             autoplaySpeed: 2000,
-            dots: true,
             infinite: true,
             arrows: false,
             centerPadding: '160px',
