@@ -1,3 +1,15 @@
+.home {
+    display: inline-block;
+    height: 6vh;
+    width: auto;
+    padding: 1vh 0;
+}
+.home_mob {
+    display: none;
+}
+.menu_main_text {
+    color: white;
+}
 .text {
     text-align: center;
     font-size: 2.5vh;
@@ -10,38 +22,110 @@
     margin: 0 auto;
 }
 .del_item {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 105svh;
     display: grid;
-    width: 33%;
-    margin: 2vh;
-    background-color: #f1f1f1;
-    border-radius: 5%;
-    text-align: center;
+    align-items: end;  
+    background-size: cover;
+    background-position: center;
 }
-.del_item:hover {
-    background-color: #cecece;
+.item {
+    width: 80%; 
+    margin: 0 auto 15vh auto;
+    display: grid;
+}
+.iter {
+    padding: 0;
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(245,245,245,0) 49%, rgba(0,0,0,0.8) 100%),
+    url(../img/iter.jpg);
+}
+.kstar {
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(245,245,245,0) 49%, rgba(0,0,0,0.8) 100%),
+    url(../img/kstar.jpg);
+}
+.hl2a {
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(245,245,245,0) 49%, rgba(0,0,0,0.8) 100%),
+    url(../img/hl-2a.jpg);
+}
+.east {
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(245,245,245,0) 49%, rgba(0,0,0,0.8) 100%),
+    url(../img/east.jpg);
+}
+.asdex {
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(245,245,245,0) 49%, rgba(0,0,0,0.8) 100%),
+    url(../img/asdex.webp);
+}
+.t15md {
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(245,245,245,0) 49%, rgba(0,0,0,0.8) 100%),
+    url(../img/t15md.jpg);
 }
 .name {
-    padding: 1.5vh;
+    padding: 0.5vh;
     font-weight: bold;
-    font-size: 3.7vh;
+    font-size: 6vh;
 }
 .params {
     display: flex;
 }
 .param {
     padding: 0 1.5vh;
-    font-size: 2.2vh;
+    font-size: 4vh;
 }
 .counts {
     display: flex;
 }
 .count {
-    padding: 0.5vh 1.5vh 1vh 1.5vh;
-    font-size: 2.1vh;
+    padding: 0.5vh;
+    font-size: 3vh;
     font-weight: bold;
 }
 .photo {
     width: 90%;
-    aspect-ratio: 3/2;
+    aspect-ratio: 5/2;
     margin: 1.5vh auto;
+}
+.del_photo {
+    width: 60%;
+    aspect-ratio: 5/2;
+}
+.del_abstract {
+    width: 40%;
+}
+.content {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;  
+}
+.main {
+    padding: 0;
+}
+.footer {
+    box-shadow: none;
+    padding: 5vh 0 0 0;
+}
+.connect_info {
+    color: white;
+}
+@media screen and (max-width:1024px) {
+    .home, .home_mob {
+        padding: 1vh 1.5vh;
+        height: 5vh;
+    }
+    .header_burger_black:before, .header_burger_black:after {
+        background-color: #fff;
+    }
+   .header_burger_black span {
+        background-color: #fff;
+    }
+}
+@media screen and (max-width: 425px) {
+    .home_mob {
+        display: inline-block;
+    }
+    .home {
+        display: none;
+    }
 }
